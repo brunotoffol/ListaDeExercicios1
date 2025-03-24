@@ -26,6 +26,7 @@
             double poupanca = 0.1 * totalVendas;
 
             Console.WriteLine($"O total de vendas do dia foi R${totalVendas}, o valor a ser depositado na poupança é R$ {poupanca:f3}");
+            Console.WriteLine("-------------------------------");
             Console.ReadLine();
         }
     }
